@@ -1,0 +1,5 @@
+Git status shows a deleted file when the file was previously tracked by Git but has been removed from the working directory.
+
+The deletion is not yet staged or committed.
+
+We can use git add to stage the deletion and git commit to save it, or git restore to recover the deleted file.
